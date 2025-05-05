@@ -25,4 +25,19 @@ body {
     main {
         grid-template-columns: 1fr 1fr;
     }
+    header {
+        background-color: white;
+        color: black
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
