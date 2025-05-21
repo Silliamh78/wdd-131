@@ -1,5 +1,5 @@
-menuButton.classlist.add('hide')
-element.addEventListener("event", handlerFunction)
+menuButton.classList.add('hide')
+element.addEventListener("hide", handlerFunction)
 
 function handleResize() {
   const menu= document.querySelector(".menu");
