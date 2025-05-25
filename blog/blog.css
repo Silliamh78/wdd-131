@@ -26,3 +26,14 @@ header {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
+
+
+body{
+    header{
+        text: #AF1B3F;}
+    div{
+        subtitle{
+        text: #AF1B3F
+    }}
+}
+
