@@ -28,12 +28,34 @@ header {
   }
 
 
-body{
-    header{
-        text: #AF1B3F;}
-    div{
-        subtitle{
-        text: #AF1B3F
-    }}
+header{
+    text-align: center;
+    font-size: 50px;
+    
 }
 
+header a{
+    color: #473144;
+}
+
+body{
+    text-align:center;
+}
+
+/* Gold color: #EFC69B
+Red color: #AF1B3F
+Dark color: #473144
+Body font: Helvetica, Arial, sans-serif
+Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.) */
+
+.main-nav{
+    text-align: center;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.main-nav a{
+    color: #AF1B3F;
+}
