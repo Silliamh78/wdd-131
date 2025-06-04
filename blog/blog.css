@@ -49,13 +49,18 @@ Body font: Helvetica, Arial, sans-serif
 Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.) */
 
 .main-nav{
-    text-align: center;
+    text-align: right;
     font-size: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 
 }
 
 .main-nav a{
+    color: #AF1B3F;
+}
+
+.bookone {
     color: #AF1B3F;
 }
