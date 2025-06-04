@@ -65,6 +65,11 @@ Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.) */
     color: #AF1B3F;
 }
 
+
+.centercolumn{
+    text-align: center;
+}
+
 .title {
     color: #AF1B3F;
     font-size: 30px;
@@ -73,4 +78,12 @@ Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.) */
 .subtitle{
     color: #473144;
     font-size: 15px;
+}
+
+.leftinfo{
+    text-align: right;
+}
+
+.sort{
+    text-align: right;
 }
