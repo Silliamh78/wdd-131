@@ -39,9 +39,13 @@ header a{
 }
 
 body{
-    text-align:center;
+    text-align: left;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 /* Gold color: #EFC69B
 Red color: #AF1B3F
 Dark color: #473144
@@ -61,6 +65,12 @@ Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.) */
     color: #AF1B3F;
 }
 
-.bookone {
+.title {
     color: #AF1B3F;
+    font-size: 30px;
+}
+
+.subtitle{
+    color: #473144;
+    font-size: 15px;
 }
