@@ -26,3 +26,33 @@ const character = {
     document.getElementById('level').textContent = character.level;
     document.getElementById('health').textContent = character.health;
   }
+
+document.addEventListener('DOMContentLoaded', () => {
+  updateCharacterDisplay();
+});
+
+document.getElementByID('attacked') .addEventListener('click', () =>{
+  character.attacked();
+  updateCharacterDisplay();
+})
+
+document.getElementById ('levelup') .addEventListener("click", () => {
+  character.levelUp();
+  updateCharacterDisplay();
+});
+
+//   document.addEventListener('DOMContentLoaded', () => {
+//   updateCharacterDisplay();
+
+//   document.getElementById('attacked').addEventListener('click', () => {
+//     character.attacked();
+//     updateCharacterDisplay();
+//     document.getElementById('log').textContent = 'Snortleblat was attacked!';
+//   });
+
+//   document.getElementById('levelup').addEventListener('click', () => {
+//     character.levelUp();
+//     updateCharacterDisplay();
+//     document.getElementById('log').textContent = 'Snortleblat leveled up!';
+//   });
+// });
