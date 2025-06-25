@@ -279,3 +279,6 @@ const recipes = [
 		rating: 4
 	}
 ]
+
+let randomNum= Math.random();
+console.log (randomNum)
