@@ -280,5 +280,21 @@ const recipes = [
 	}
 ]
 
+const recipeBook = document.getElementById('recipe-book');
+
+recipes.forEach(recipe => {
+  const recipeDiv = document.createElement('div');
+  recipeDiv.classList.add('recipe');
+
+  recipeDiv.innerHTML = `
+    <img class="image" src="${recipe.image}" alt="${recipe.name}">
+    <div class="name">${recipe.name}</div>
+    <div class="ingredients">${recipeIngredients.join(', ')}</div>
+    <div class="rating">${"⭐".repeat(recipe.rating)}</div>
+  `;
+
+  recipeBook.appendChild(recipeDiv);
+});
+
 let randomNum= Math.random();
 console.log (randomNum)

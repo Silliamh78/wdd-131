@@ -36,8 +36,44 @@
     <img class="image" src="apple-crisp.jpg" alt="apple-crisp">
     <div class="name"></div>
     <div class="recipe ingrediant"></div> -->
+
+    
    
     <!-- </div>
+
+    function difficultyTemplate(rating) {
+
+    // begin building an html string using the ratings HTML written earlier as a model.
+
+    let html = `<span
+
+      class="rating"
+
+      role="img"
+
+      aria-label="Rating: ${rating} out of 5"
+
+    >Difficulty: `
+
+    for (let i = 1; i <= 5; i++) {
+
+      if (i <= rating) {
+
+        html += `<span aria-hidden="true" class="icon-boot"> 🥾</span>`
+
+      } else {
+
+        html += `<span aria-hidden="true" class="icon-empty">▫️</span>`
+
+      }    
+
+    }
+
+    html += `</span>`
+
+    return html
+
+}
 
     </span> -->
 </main>
