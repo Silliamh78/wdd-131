@@ -294,12 +294,12 @@ function recipeTemplate(recipe){
 	</section> `;	
 };
 
-function tagsTemplate(recipe.tags) {
-	<section class= "tags">${recipe.tags}</section>
+function tagsTemplate(tags) {
+	return `<section class="tags">${tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</section>`;
 };
 
-function ratingTemplate(recipe.rating) {
-	<section class="rating">${recipe.rating}</section>
+function ratingTemplate(rating) {
+	return `<section class="rating">⭐ ${rating}</section>`;
 };
 
 function displayrecipe(){
@@ -314,10 +314,10 @@ function displayrecipe(){
 //     <img class="image" src="${recipe.image}" alt="${recipe.name}">
 //     <div class="name">${recipe.name}</div>
 //     <div class="rating">${"⭐".repeat(recipe.rating)}</div>
-  `;
+//   `;
 
-  recipeBook.appendChild(recipeDiv);
-});
+//   recipeBook.appendChild(recipeDiv);
+// });
 
-let randomNum= Math.random();
-console.log (randomNum)
+// let randomNum= Math.random();
+// console.log (randomNum)
