@@ -302,7 +302,7 @@ function ratingTemplate(rating) {
 	return `<section class="rating">⭐ ${rating}</section>`;
 };
 
-function displayrecipe(recipeTemplate) {
+function displayrecipe() {
 	recipeBook.innerHTML = recipes.map(recipeTemplate).join('');
 };
 
