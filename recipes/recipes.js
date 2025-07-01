@@ -302,9 +302,11 @@ function ratingTemplate(rating) {
 	return `<section class="rating">⭐ ${rating}</section>`;
 };
 
-function displayrecipe(){
+function displayrecipe(recipeTemplate) {
+	recipeBook.innerHTML = recipes.map(recipeTemplate).join('');
+};
 
-}
+displayrecipe();
 
 // recipes.forEach(recipe => {
 //   const recipeDiv = document.createElement('div');
