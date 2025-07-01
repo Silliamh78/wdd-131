@@ -282,15 +282,38 @@ const recipes = [
 
 const recipeBook = document.getElementById('recipe-book');
 
-recipes.forEach(recipe => {
-  const recipeDiv = document.createElement('div');
-  recipeDiv.classList.add('recipe');
+function recipeTemplate(recipe){
+	return `<section class="recipe-class">
+		<img class="recipe.img" src="${recipe.image}">
+		<section class="tags">
+		${tagsTemplate(recipe.tags)}
+		</section>
+		<h2 class="recipe-name">${recipe.name}</h2>
+		${ratingTemplate(recipe.rating)}
+		<p class="description">${recipe.description}</p>
+	</section> `;	
+}
 
-  recipeDiv.innerHTML = `
-    <img class="image" src="${recipe.image}" alt="${recipe.name}">
-    <div class="name">${recipe.name}</div>
-    <div class="ingredients">${recipeIngredients.join(', ')}</div>
-    <div class="rating">${"⭐".repeat(recipe.rating)}</div>
+function tagsTemplate(recipe.tags) {
+	`<section class= "tags">${recipe.tags}</section>`
+};
+
+function ratingTemplate(recipe.rating) {
+	`section class="rating">${recipe.rating}<section>`
+};
+
+function displayrecipe(){
+
+}
+
+// recipes.forEach(recipe => {
+//   const recipeDiv = document.createElement('div');
+//   recipeDiv.classList.add('recipe');
+
+//   recipeDiv.innerHTML = `
+//     <img class="image" src="${recipe.image}" alt="${recipe.name}">
+//     <div class="name">${recipe.name}</div>
+//     <div class="rating">${"⭐".repeat(recipe.rating)}</div>
   `;
 
   recipeBook.appendChild(recipeDiv);
