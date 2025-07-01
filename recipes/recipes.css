@@ -2,9 +2,7 @@
     font-size: 0.6em;
 }
 
-.recipe{};
 
-.recipe img{};
-
-.recipe h2{};
-    
+head{
+    grid-template-columns: 1fr 1fr 1fr;
+}
