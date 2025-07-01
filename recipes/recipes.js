@@ -292,14 +292,14 @@ function recipeTemplate(recipe){
 		${ratingTemplate(recipe.rating)}
 		<p class="description">${recipe.description}</p>
 	</section> `;	
-}
+};
 
 function tagsTemplate(recipe.tags) {
-	`<section class= "tags">${recipe.tags}</section>`
+	<section class= "tags">${recipe.tags}</section>
 };
 
 function ratingTemplate(recipe.rating) {
-	`section class="rating">${recipe.rating}<section>`
+	<section class="rating">${recipe.rating}</section>
 };
 
 function displayrecipe(){
