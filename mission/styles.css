@@ -1,0 +1,30 @@
+title{
+    text-align: center;}
+title{
+    font-size: 1000 px;
+}
+   
+h2{
+    text-align: center;
+}
+h2{
+    color: #006EB6;
+}
+
+h2{
+line-height: 1.5;}
+title{
+    line-height: 1.5;}
+body{
+    line-height: 1.5;}
+
+body{text-align: center;}
+
+.dark{
+    background-color: #333;
+    color: white;
+}
+
+.dark h2{
+    color: lightblue
+}

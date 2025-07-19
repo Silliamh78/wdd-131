@@ -1,0 +1,89 @@
+header {
+    font-size: 700 px;
+}
+
+.container{
+    display: grid;
+}
+
+ @media screen and (min-width: 500px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    header {
+        background-color: white;
+        color: black
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+
+header{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+header a{
+    color: #473144;
+}
+
+body{
+    text-align: left;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* Gold color: #EFC69B
+Red color: #AF1B3F
+Dark color: #473144
+Body font: Helvetica, Arial, sans-serif
+Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.) */
+
+.main-nav{
+    text-align: right;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+.main-nav a{
+    color: #AF1B3F;
+}
+
+
+.centercolumn{
+    text-align: center;
+}
+
+.title {
+    color: #AF1B3F;
+    font-size: 30px;
+}
+
+.subtitle{
+    color: #473144;
+    font-size: 15px;
+}
+
+.leftinfo{
+    text-align: right;
+}
+
+.sort{
+    text-align: right;
+}

@@ -1,0 +1,8 @@
+.recipe-icons{
+    font-size: 0.6em;
+}
+
+
+head{
+    grid-template-columns: 1fr 1fr 1fr;
+}
