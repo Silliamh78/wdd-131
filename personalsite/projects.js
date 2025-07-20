@@ -4,7 +4,7 @@ const projects= [
     Year: "2025",
     tags: ["dance","singing","acting","music","teamwork","creating a cohesive vision"],
     description: "BYU-Idaho performance project, worked in the Ensemble helping define the atmosphere of the show. Also a featured dance role, heavily involved in the vianese waltz number specifically.",
-    img: ".portfolio/IMG-8034.jpg"},
+    img: "portfolio/IMG-8034.jpg"},
     {Title: "Outlet Project",
     Type: "Magazine Publication",
     Year: "2024",
