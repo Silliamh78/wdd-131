@@ -26,13 +26,13 @@ const projectlist = document.getElementById('projectlist');
 
 function projectTemplate(project){
 	return `<section class="recipe-class">
-		<img class="project.img" src="${project.image}">
+		<img class="project.img" src="${project.img}">
 		<section class="tags">
 		${tagsTemplate(project.tags)}
 		</section>
-		<h2 class="project-name">${project.name}</h2>
-		<section class= "project-type">${(project.type)}</section>
-        <section class= "project-year">${(project.year)}</section>
+		<h2 class="project-name">${project.Title}</h2>
+		<section class= "project-type">${(project.Type)}</section>
+        <section class= "project-year">${(project.Year)}</section>
 		<p class="description">${project.description}</p>
 	</section> `;	
 };
