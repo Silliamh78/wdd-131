@@ -22,7 +22,7 @@ const projects= [
 
 ]
 
-const projectlist = document.getElementById('project-list');
+const projectlist = document.getElementById('projectlist');
 
 function projectTemplate(project){
 	return `<section class="recipe-class">
