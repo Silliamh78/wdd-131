@@ -26,7 +26,7 @@ const projectlist = document.getElementById('projectlist');
 
 function projectTemplate(project){
 	return `<section class="recipe-class">
-		<img class="project.img" src="${project.img}">
+		<img class="project-img"  src="${project.img || 'fallback.jpg'}" alt="${project.Title}">
 		<section class="tags">
 		${tagsTemplate(project.tags)}
 		</section>

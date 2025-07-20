@@ -187,6 +187,13 @@ nav a:hover {
     text-align: center;
 }
 
-.me{
-  size: 100 px
+Title{
+  text-align: center;
+}
+
+.me {width: 300px; /* Or any size that works for you */
+  height: auto; /* Keeps the aspect ratio */
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px; /* Optional: rounds the corners */
 }
